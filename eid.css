@@ -119,8 +119,8 @@ header .navbar {
    min-height: 100vh;
 }
 
-.home-section .title {
-    font-size: 2.5rem;
+.home-section #eid {
+    font-size: 2.6rem;
     color: orange;
     font-family: "Miniver", sans-serif; 
 }
