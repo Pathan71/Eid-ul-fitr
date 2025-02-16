@@ -45,7 +45,7 @@
         <section class="home-section" id="home">
             <div class="section-content">
                 <div class="details">
-                    <h2 class="title">Muslim special day</h2>
+                    <h2><span id="eid"></span></h2>
                     <p class="subtitle">Make your day is great!</p>
                     <p class="description">The strength bonds with loved ones, offer prayers of gratitude, during Ramadan.</p>
                 </div>
@@ -186,6 +186,7 @@
     
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
     const menuOpenButton = document.querySelector('#menu-open-button');
     const menuCloseButton = document.querySelector('#menu-close-button');
@@ -197,6 +198,16 @@
 
     //Close menu when the closs button is clicked
     menuCloseButton.addEventListener("click", () => menuOpenButton.click())
+
+    
+    var eid = new Typed('#eid', {
+        strings: ["Muslims special"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        backDelay: 1000,
+        loop: true,
+    });
+
 </script>
 
 </html>
